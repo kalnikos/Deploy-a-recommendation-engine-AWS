@@ -1,1 +1,1 @@
-# Deploy-a-recommendation-engine-with-Flask-ands-Heroku
+# Deploy a recommendation engine-with Flask-and Heroku
