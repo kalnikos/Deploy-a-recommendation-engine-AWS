@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>results</title>
+	<link rel="stylesheet" href="\static\style.css">	
+</head>
+<body>
+
+	<header>
+		<h2>The open positions are below</h2>
+
+	   </div>
+	</header>
+<div class="results">  
+<h3> Here is the number of the jobs that the model parsed: {{num}} </h3>
+<p>Open the below links</p>
+    {% for link in output %}
+     <a href ="{{link}}">Click the Link</a><br />
+    {% endfor %}
+</div>
+</body>
+</html>

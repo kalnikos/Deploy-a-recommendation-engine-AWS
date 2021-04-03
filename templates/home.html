@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Home</title>
+	<link rel="stylesheet" href="\static\style.css">
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			<h1>A recommendation engine that generates open Vacancies based on your CV </h1>
+		</div>
+		<p> The model is dynamic, and every time that you insert Job Title and Location the engine finds today's vacancies. 
+			So, it requires some time to parse the open Vacancies. The metric that the model is built on is the Cosine Similarity. 
+			I used this metric in order to compare documents with different sizes but with the same meaning. 
+		</p>
+	
+
+	   </div>
+	</header>
+<div class="home">
+	<form id="form" action="{{ url_for("results")}}" method="post",  enctype = "multipart/form-data"> 
+        <label for="job">Job tittle</label> <br/>
+        <input type="text" id="firstname" name="job" placeholder="Job Tittle" value=""><br/>
+        <label for="area">Area</label> </br>
+        <input type="text" id="lastname" name="area" placeholder="Area" value=""><br/>
+		<label for="file">Insert Your CV</label></br>
+		<input type="file" name="file" value=""><br/>
+        <button class="button"  type="submit">Search</button> 
+    </form>
+</div>
+		
+
+</body>
+</html>
+
+
