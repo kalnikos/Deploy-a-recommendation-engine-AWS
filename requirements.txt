@@ -30,7 +30,6 @@ pandas==1.0.3
 pandas-datareader==0.8.1
 parsel==1.6.0
 Pillow==7.1.2
-post==2019.4.13
 public==2019.4.13
 pycparser==2.20
 pygame==1.9.6
