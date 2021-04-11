@@ -1,1 +1,1 @@
-# Deploy a recommendation engine using AWS
+# Deploy a recommendation engine using Heroku
