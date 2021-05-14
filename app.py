@@ -175,4 +175,6 @@ def results():
        return render_template("results.html", num = str(number_of_vacancies), output = text)
     
 if __name__ == '__main__':
-    app.run(debug=True)
+    #app.run(debug=True)
+    #on ubuntu server
+    app.run(host='0.0.0', port=8080)
